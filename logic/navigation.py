@@ -16,7 +16,7 @@ from logic.dates import *
 
 conf_log()
 
-def nav_uss(driver, review_xpath, call_reports, call_detail_report, call_center, report_format):
+def nav_without_service(driver, review_xpath, call_reports, call_detail_report, call_center, report_format):
     try:
 
         navigator_list = [
@@ -51,7 +51,7 @@ def nav_uss(driver, review_xpath, call_reports, call_detail_report, call_center,
         logging.error(f'Error: {e}')
 
 
-def nav_air(driver, review_xpath, call_reports, call_detail_report, call_center, report_format, service_format):
+def nav_with_service(driver, review_xpath, call_reports, call_detail_report, call_center, report_format, service_format, call_center_key, report_format_key, service_format_key):
     try:
 
         navigator_list = [
@@ -64,26 +64,24 @@ def nav_air(driver, review_xpath, call_reports, call_detail_report, call_center,
         ]
 
         for i, nav_func in enumerate(navigator_list):
-            print(f"Attempting to click element {i} with XPATH: {nav_func.__code__.co_consts[1]}")
             element = nav_func()
             element.click()
-            print(f"Clicked Element {i}")
 
             if i == 3:
                 call_center_input = WebDriverWait(driver, 15).until(EC.visibility_of_element_located((By.XPATH, call_center)))
-                call_center_input.send_keys('Dragon 3P (3062852)' + Keys.ENTER)
+                call_center_input.send_keys(call_center_key + Keys.ENTER)
 
             if i == 4:
                 report_format_input = WebDriverWait(driver, 15).until(EC.visibility_of_element_located((By.XPATH, report_format)))
-                report_format_input.send_keys('AGA_RETURN' + Keys.ENTER)
+                report_format_input.send_keys(report_format_key + Keys.ENTER)
 
             if i == 5:
                 service_format_input = WebDriverWait(driver, 15).until(EC.visibility_of_element_located((By.XPATH, service_format)))
-                service_format_input.send_keys('AIRPRAX_HCI_CLICKER (3179862)' + Keys.ENTER)
+                service_format_input.send_keys(service_format_key + Keys.ENTER)
 
 
         if nav_func():
-            print_list = ['Clicked Review', 'Clicked Call Reports', 'Clicked CDR', 'Airgas/Prax Selected', 'Service Selected', 'From Date added', 'End Date added']
+            print_list = ['Clicked Review', 'Clicked Call Reports', 'Clicked CDR', call_center + 'Selected', 'Service Selected', 'From Date added', 'End Date added']
             for prnt in print_list:
                 logging.info(prnt)
         else:

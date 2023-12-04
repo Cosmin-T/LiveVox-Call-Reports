@@ -1,204 +1,102 @@
-2023-11-15 19:08:31,239 - INFO - NumExpr defaulting to 8 threads.
-2023-11-15 19:08:33,825 - INFO - User Added
-2023-11-15 19:08:33,857 - INFO - Password Added
-2023-11-15 19:08:35,204 - INFO - Next Clicked
-2023-11-15 19:08:38,313 - INFO - Clicked Review
-2023-11-15 19:08:38,313 - INFO - Clicked Call Reports
-2023-11-15 19:08:38,313 - INFO - Clicked CDR
-2023-11-15 19:08:38,313 - INFO - USS Selected
-2023-11-15 19:08:38,313 - INFO - Format Selected
-2023-11-15 19:08:38,313 - INFO - From Date added
-2023-11-15 19:08:38,313 - INFO - End Date added
-2023-11-15 19:08:39,357 - INFO - Current Date String: 11/15/2023
-2023-11-15 19:08:39,358 - INFO - Current Date: 2023-11-15 Today:, 2023-11-15
-2023-11-15 19:08:39,358 - INFO - Dates match
-2023-11-15 19:08:39,435 - INFO - SET 11/14/2023
-2023-11-15 19:08:39,449 - INFO - Current Date String: 11/15/2023
-2023-11-15 19:08:39,449 - INFO - Current Date: 2023-11-15 Today:, 2023-11-15
-2023-11-15 19:08:39,449 - INFO - Dates match
-2023-11-15 19:08:39,499 - INFO - SET 11/14/2023
-2023-11-15 19:08:40,794 - INFO - TXT file downloaded succesfully
-2023-11-15 19:08:50,830 - INFO - File: /Users/cosmint/Downloads/BII_1_USS__512492_11142023_1700068120990.txt found.
-2023-11-15 19:08:50,871 - INFO - Data appended
-2023-11-15 19:08:50,891 - INFO - DataFrame created
-2023-11-15 19:08:50,899 - INFO - Duplicates removed
-2023-11-15 19:08:51,658 - INFO - DataFrame Exported to Excel
-2023-11-15 19:08:52,238 - INFO - Creating Invalid Sheet
-2023-11-15 19:08:52,238 - INFO - Moving to 1st position
-2023-11-15 19:08:52,243 - INFO - Copying headers from Sheet1 to Invalid
-2023-11-15 19:08:52,243 - INFO - Found LiveVox_Result column
-2023-11-15 19:08:52,318 - INFO - Copied Invalid data to Invalid Sheet
-2023-11-15 19:08:52,974 - INFO - Saved Successfully
-2023-11-15 19:08:58,585 - INFO - Email sent successfully!
-2023-11-15 19:08:58,635 - INFO - FIle /Users/cosmint/Downloads/BII_1_* removed.
+2023-12-04 22:14:31,865 - INFO - NumExpr defaulting to 8 threads.
+2023-12-04 22:14:34,488 - INFO - User Added
+2023-12-04 22:14:34,531 - INFO - Password Added
+2023-12-04 22:14:35,934 - INFO - Next Clicked
+2023-12-04 22:14:38,053 - INFO - Clicked Review
+2023-12-04 22:14:38,053 - INFO - Clicked Call Reports
+2023-12-04 22:14:38,053 - INFO - Clicked CDR
+2023-12-04 22:14:38,053 - INFO - USS Selected
+2023-12-04 22:14:38,053 - INFO - Format Selected
+2023-12-04 22:14:38,053 - INFO - From Date added
+2023-12-04 22:14:38,053 - INFO - End Date added
+2023-12-04 22:14:39,095 - INFO - Current Date String: 12/04/2023
+2023-12-04 22:14:39,096 - INFO - Current Date: 2023-12-04 Today:, 2023-12-04
+2023-12-04 22:14:39,096 - INFO - Dates match
+2023-12-04 22:14:39,170 - INFO - SET 12/01/2023
+2023-12-04 22:14:39,185 - INFO - Current Date String: 12/04/2023
+2023-12-04 22:14:39,185 - INFO - Current Date: 2023-12-04 Today:, 2023-12-04
+2023-12-04 22:14:39,185 - INFO - Dates match
+2023-12-04 22:14:39,232 - INFO - SET 12/01/2023
+2023-12-04 22:14:40,387 - INFO - TXT file downloaded succesfully
+2023-12-04 22:14:50,389 - INFO - File: /Users/cosmint/Downloads/BII_1_USS__334899_12012023_1701720880514.txt found.
+2023-12-04 22:14:50,402 - INFO - Data appended
+2023-12-04 22:14:50,402 - INFO - File: /Users/cosmint/Downloads/BII_1_KASAYA_KASAYA_HCI_CLICKER_933687_12012023_1701720832623.txt found.
+2023-12-04 22:14:50,402 - INFO - Data appended
+2023-12-04 22:14:50,411 - INFO - DataFrame created
+2023-12-04 22:14:50,416 - INFO - Duplicates removed
+2023-12-04 22:14:51,057 - INFO - DataFrame Exported to Excel
+2023-12-04 22:14:51,565 - INFO - Creating Invalid Sheet
+2023-12-04 22:14:51,565 - INFO - Moving to 1st position
+2023-12-04 22:14:51,568 - INFO - Copying headers from Sheet1 to Invalid
+2023-12-04 22:14:51,568 - INFO - Found LiveVox_Result column
+2023-12-04 22:14:51,637 - INFO - Copied Invalid data to Invalid Sheet
+2023-12-04 22:14:52,199 - INFO - Saved Successfully
+2023-12-04 22:15:00,756 - INFO - Email sent successfully!
+2023-12-04 22:15:00,805 - INFO - FIle /Users/cosmint/Downloads/BII_1_* removed.
 
-2023-11-15 19:09:01,133 - INFO - User Added
-2023-11-15 19:09:01,172 - INFO - Password Added
-2023-11-15 19:09:02,486 - INFO - Next Clicked
-2023-11-15 19:09:05,962 - INFO - Clicked Review
-2023-11-15 19:09:05,962 - INFO - Clicked Call Reports
-2023-11-15 19:09:05,963 - INFO - Clicked CDR
-2023-11-15 19:09:05,963 - INFO - Airgas/Prax Selected
-2023-11-15 19:09:05,963 - INFO - Service Selected
-2023-11-15 19:09:05,963 - INFO - From Date added
-2023-11-15 19:09:05,963 - INFO - End Date added
-2023-11-15 19:09:07,008 - INFO - Current Date String: 11/15/2023
-2023-11-15 19:09:07,008 - INFO - Current Date: 2023-11-15 Today:, 2023-11-15
-2023-11-15 19:09:07,008 - INFO - Dates match
-2023-11-15 19:09:07,079 - INFO - SET 11/14/2023
-2023-11-15 19:09:07,094 - INFO - Current Date String: 11/15/2023
-2023-11-15 19:09:07,095 - INFO - Current Date: 2023-11-15 Today:, 2023-11-15
-2023-11-15 19:09:07,095 - INFO - Dates match
-2023-11-15 19:09:07,138 - INFO - SET 11/14/2023
-2023-11-15 19:09:08,225 - INFO - TXT file downloaded succesfully
-2023-11-15 19:09:18,231 - INFO - File: /Users/cosmint/Downloads/BII_1_Dragon_3P_AIRPRAX_HCI_CLICKER_104303_11142023_1700068148401.txt found.
-2023-11-15 19:09:18,247 - INFO - Data appended
-2023-11-15 19:09:18,256 - INFO - DataFrame created
-2023-11-15 19:09:18,264 - INFO - Duplicates removed
-2023-11-15 19:09:18,781 - INFO - DataFrame Exported to Excel
-2023-11-15 19:09:19,172 - INFO - Creating Invalid Sheet
-2023-11-15 19:09:19,173 - INFO - Moving to 1st position
-2023-11-15 19:09:19,175 - INFO - Copying headers from Sheet1 to Invalid
-2023-11-15 19:09:19,175 - INFO - Found LiveVox_Result column
-2023-11-15 19:09:19,269 - INFO - Copied Invalid data to Invalid Sheet
-2023-11-15 19:09:19,930 - INFO - Saved Successfully
-2023-11-15 19:09:24,663 - INFO - Email sent successfully!
-2023-11-15 19:09:24,742 - INFO - FIle /Users/cosmint/Downloads/BII_1_* removed.
-2023-11-15 19:09:25,271 - ERROR - Error: Command '['osascript', '-e', '\n        tell application "Finder"\n            activate\n            close every Finder window\n            make new Finder window to POSIX file "/Volumes/Samsung 970 EVO/Documents/Python/livevox_call_report"\n            tell application "System Events" to keystroke "t" using command down\n            delay 0.5\n            set target of Finder window 1 to POSIX file "/Users/cosmint/Documents/Work/Outlook Templates"\n        end tell\n        ']' returned non-zero exit status 1.
+2023-12-04 22:15:03,466 - INFO - User Added
+2023-12-04 22:15:03,498 - INFO - Password Added
+2023-12-04 22:15:04,867 - INFO - Next Clicked
+2023-12-04 22:15:07,674 - INFO - Clicked Review
+2023-12-04 22:15:07,674 - INFO - Clicked Call Reports
+2023-12-04 22:15:07,675 - INFO - Clicked CDR
+2023-12-04 22:15:07,675 - INFO - //*[@id="callcenter_combo"]Selected
+2023-12-04 22:15:07,675 - INFO - Service Selected
+2023-12-04 22:15:07,675 - INFO - From Date added
+2023-12-04 22:15:07,675 - INFO - End Date added
+2023-12-04 22:15:08,714 - INFO - Current Date String: 12/04/2023
+2023-12-04 22:15:08,715 - INFO - Current Date: 2023-12-04 Today:, 2023-12-04
+2023-12-04 22:15:08,715 - INFO - Dates match
+2023-12-04 22:15:08,782 - INFO - SET 12/01/2023
+2023-12-04 22:15:08,796 - INFO - Current Date String: 12/04/2023
+2023-12-04 22:15:08,796 - INFO - Current Date: 2023-12-04 Today:, 2023-12-04
+2023-12-04 22:15:08,796 - INFO - Dates match
+2023-12-04 22:15:08,842 - INFO - SET 12/01/2023
+2023-12-04 22:15:10,132 - INFO - TXT file downloaded succesfully
+2023-12-04 22:15:20,137 - INFO - File: /Users/cosmint/Downloads/BII_1_Dragon_3P_AIRPRAX_HCI_CLICKER_6231_12012023_1701720910289.txt found.
+2023-12-04 22:15:20,145 - INFO - Data appended
+2023-12-04 22:15:20,148 - INFO - DataFrame created
+2023-12-04 22:15:20,150 - INFO - Duplicates removed
+2023-12-04 22:15:20,518 - INFO - DataFrame Exported to Excel
+2023-12-04 22:15:20,703 - INFO - Creating Invalid Sheet
+2023-12-04 22:15:20,703 - INFO - Moving to 1st position
+2023-12-04 22:15:20,705 - INFO - Copying headers from Sheet1 to Invalid
+2023-12-04 22:15:20,705 - INFO - Found LiveVox_Result column
+2023-12-04 22:15:20,736 - INFO - Copied Invalid data to Invalid Sheet
+2023-12-04 22:15:21,010 - INFO - Saved Successfully
+2023-12-04 22:15:27,067 - INFO - Email sent successfully!
+2023-12-04 22:15:27,115 - INFO - FIle /Users/cosmint/Downloads/BII_1_* removed.
 
-2023-11-16 12:30:02,909 - INFO - NumExpr defaulting to 8 threads.
-2023-11-16 12:30:06,308 - INFO - User Added
-2023-11-16 12:30:06,345 - INFO - Password Added
-2023-11-16 12:30:07,888 - INFO - Next Clicked
-2023-11-16 12:30:11,012 - INFO - Clicked Review
-2023-11-16 12:30:11,012 - INFO - Clicked Call Reports
-2023-11-16 12:30:11,012 - INFO - Clicked CDR
-2023-11-16 12:30:11,012 - INFO - USS Selected
-2023-11-16 12:30:11,012 - INFO - Format Selected
-2023-11-16 12:30:11,012 - INFO - From Date added
-2023-11-16 12:30:11,012 - INFO - End Date added
-2023-11-16 12:30:12,047 - INFO - Current Date String: 11/16/2023
-2023-11-16 12:30:12,048 - INFO - Current Date: 2023-11-16 Today:, 2023-11-16
-2023-11-16 12:30:12,048 - INFO - Dates match
-2023-11-16 12:30:12,358 - INFO - SET 11/15/2023
-2023-11-16 12:30:12,371 - INFO - Current Date String: 11/16/2023
-2023-11-16 12:30:12,371 - INFO - Current Date: 2023-11-16 Today:, 2023-11-16
-2023-11-16 12:30:12,371 - INFO - Dates match
-2023-11-16 12:30:12,647 - INFO - SET 11/15/2023
-2023-11-16 12:30:13,766 - INFO - TXT file downloaded succesfully
-2023-11-16 12:30:23,806 - INFO - File: /Users/cosmint/Downloads/BII_1_USS__219789_11152023_1700130614091.txt found.
-2023-11-16 12:30:23,835 - INFO - Data appended
-2023-11-16 12:30:23,848 - INFO - DataFrame created
-2023-11-16 12:30:23,855 - INFO - Duplicates removed
-2023-11-16 12:30:24,588 - INFO - DataFrame Exported to Excel
-2023-11-16 12:30:25,121 - INFO - Creating Invalid Sheet
-2023-11-16 12:30:25,121 - INFO - Moving to 1st position
-2023-11-16 12:30:25,125 - INFO - Copying headers from Sheet1 to Invalid
-2023-11-16 12:30:25,125 - INFO - Found LiveVox_Result column
-2023-11-16 12:30:25,233 - INFO - Copied Invalid data to Invalid Sheet
-2023-11-16 12:30:25,811 - INFO - Saved Successfully
-2023-11-16 12:30:30,906 - INFO - Email sent successfully!
-2023-11-16 12:30:30,987 - INFO - FIle /Users/cosmint/Downloads/BII_1_* removed.
-
-2023-11-16 12:30:33,274 - INFO - User Added
-2023-11-16 12:30:33,308 - INFO - Password Added
-2023-11-16 12:30:34,727 - INFO - Next Clicked
-2023-11-16 12:30:36,913 - INFO - Clicked Review
-2023-11-16 12:30:36,913 - INFO - Clicked Call Reports
-2023-11-16 12:30:36,913 - INFO - Clicked CDR
-2023-11-16 12:30:36,913 - INFO - Airgas/Prax Selected
-2023-11-16 12:30:36,913 - INFO - Service Selected
-2023-11-16 12:30:36,913 - INFO - From Date added
-2023-11-16 12:30:36,913 - INFO - End Date added
-2023-11-16 12:30:37,952 - INFO - Current Date String: 11/16/2023
-2023-11-16 12:30:37,953 - INFO - Current Date: 2023-11-16 Today:, 2023-11-16
-2023-11-16 12:30:37,953 - INFO - Dates match
-2023-11-16 12:30:38,276 - INFO - SET 11/15/2023
-2023-11-16 12:30:38,290 - INFO - Current Date String: 11/16/2023
-2023-11-16 12:30:38,290 - INFO - Current Date: 2023-11-16 Today:, 2023-11-16
-2023-11-16 12:30:38,290 - INFO - Dates match
-2023-11-16 12:30:38,578 - INFO - SET 11/15/2023
-2023-11-16 12:30:39,696 - INFO - TXT file downloaded succesfully
-2023-11-16 12:30:49,702 - INFO - File: /Users/cosmint/Downloads/BII_1_Dragon_3P_AIRPRAX_HCI_CLICKER_702973_11152023_1700130639941.txt found.
-2023-11-16 12:30:49,712 - INFO - Data appended
-2023-11-16 12:30:49,716 - INFO - DataFrame created
-2023-11-16 12:30:49,718 - INFO - Duplicates removed
-2023-11-16 12:30:50,243 - INFO - DataFrame Exported to Excel
-2023-11-16 12:30:50,600 - INFO - Creating Invalid Sheet
-2023-11-16 12:30:50,600 - INFO - Moving to 1st position
-2023-11-16 12:30:50,603 - INFO - Copying headers from Sheet1 to Invalid
-2023-11-16 12:30:50,603 - INFO - Found LiveVox_Result column
-2023-11-16 12:30:50,669 - INFO - Copied Invalid data to Invalid Sheet
-2023-11-16 12:30:51,184 - INFO - Saved Successfully
-2023-11-16 12:30:55,816 - INFO - Email sent successfully!
-2023-11-16 12:30:55,865 - INFO - FIle /Users/cosmint/Downloads/BII_1_* removed.
-2023-11-16 12:30:56,619 - ERROR - Error: Command '['osascript', '-e', '\n        tell application "Finder"\n            activate\n            close every Finder window\n            make new Finder window to POSIX file "/Volumes/Samsung 970 EVO/Documents/Python/livevox_call_report"\n            tell application "System Events" to keystroke "t" using command down\n            delay 0.5\n            set target of Finder window 1 to POSIX file "/Users/cosmint/Documents/Work/Outlook Templates"\n        end tell\n        ']' returned non-zero exit status 1.
-
-2023-11-17 12:30:02,448 - INFO - NumExpr defaulting to 8 threads.
-2023-11-17 12:30:06,418 - INFO - User Added
-2023-11-17 12:30:06,456 - INFO - Password Added
-2023-11-17 12:30:08,758 - INFO - Next Clicked
-2023-11-17 12:30:11,962 - INFO - Clicked Review
-2023-11-17 12:30:11,962 - INFO - Clicked Call Reports
-2023-11-17 12:30:11,962 - INFO - Clicked CDR
-2023-11-17 12:30:11,962 - INFO - USS Selected
-2023-11-17 12:30:11,962 - INFO - Format Selected
-2023-11-17 12:30:11,962 - INFO - From Date added
-2023-11-17 12:30:11,962 - INFO - End Date added
-2023-11-17 12:30:12,992 - INFO - Current Date String: 11/17/2023
-2023-11-17 12:30:12,993 - INFO - Current Date: 2023-11-17 Today:, 2023-11-17
-2023-11-17 12:30:12,993 - INFO - Dates match
-2023-11-17 12:30:13,405 - INFO - SET 11/16/2023
-2023-11-17 12:30:13,419 - INFO - Current Date String: 11/17/2023
-2023-11-17 12:30:13,420 - INFO - Current Date: 2023-11-17 Today:, 2023-11-17
-2023-11-17 12:30:13,420 - INFO - Dates match
-2023-11-17 12:30:13,705 - INFO - SET 11/16/2023
-2023-11-17 12:30:14,803 - INFO - TXT file downloaded succesfully
-2023-11-17 12:30:24,843 - INFO - File: /Users/cosmint/Downloads/BII_1_USS__143133_11162023_1700217015106.txt found.
-2023-11-17 12:30:24,852 - INFO - Data appended
-2023-11-17 12:30:24,858 - INFO - DataFrame created
-2023-11-17 12:30:24,861 - INFO - Duplicates removed
-2023-11-17 12:30:25,249 - INFO - DataFrame Exported to Excel
-2023-11-17 12:30:25,541 - INFO - Creating Invalid Sheet
-2023-11-17 12:30:25,541 - INFO - Moving to 1st position
-2023-11-17 12:30:25,544 - INFO - Copying headers from Sheet1 to Invalid
-2023-11-17 12:30:25,544 - INFO - Found LiveVox_Result column
-2023-11-17 12:30:25,578 - INFO - Copied Invalid data to Invalid Sheet
-2023-11-17 12:30:25,953 - INFO - Saved Successfully
-2023-11-17 12:30:30,778 - INFO - Email sent successfully!
-2023-11-17 12:30:30,827 - INFO - FIle /Users/cosmint/Downloads/BII_1_* removed.
-
-2023-11-17 12:30:33,109 - INFO - User Added
-2023-11-17 12:30:33,146 - INFO - Password Added
-2023-11-17 12:30:34,615 - INFO - Next Clicked
-2023-11-17 12:30:36,808 - INFO - Clicked Review
-2023-11-17 12:30:36,808 - INFO - Clicked Call Reports
-2023-11-17 12:30:36,808 - INFO - Clicked CDR
-2023-11-17 12:30:36,808 - INFO - Airgas/Prax Selected
-2023-11-17 12:30:36,808 - INFO - Service Selected
-2023-11-17 12:30:36,808 - INFO - From Date added
-2023-11-17 12:30:36,808 - INFO - End Date added
-2023-11-17 12:30:37,913 - INFO - Current Date String: 11/17/2023
-2023-11-17 12:30:37,913 - INFO - Current Date: 2023-11-17 Today:, 2023-11-17
-2023-11-17 12:30:37,913 - INFO - Dates match
-2023-11-17 12:30:38,323 - INFO - SET 11/16/2023
-2023-11-17 12:30:38,336 - INFO - Current Date String: 11/17/2023
-2023-11-17 12:30:38,337 - INFO - Current Date: 2023-11-17 Today:, 2023-11-17
-2023-11-17 12:30:38,337 - INFO - Dates match
-2023-11-17 12:30:38,612 - INFO - SET 11/16/2023
-2023-11-17 12:30:39,700 - INFO - TXT file downloaded succesfully
-2023-11-17 12:30:49,711 - INFO - File: /Users/cosmint/Downloads/BII_1_Dragon_3P__618087_11162023_1700217039816.txt found.
-2023-11-17 12:30:49,726 - INFO - Data appended
-2023-11-17 12:30:49,733 - INFO - DataFrame created
-2023-11-17 12:30:49,736 - INFO - Duplicates removed
-2023-11-17 12:30:50,199 - INFO - DataFrame Exported to Excel
-2023-11-17 12:30:50,474 - INFO - Creating Invalid Sheet
-2023-11-17 12:30:50,474 - INFO - Moving to 1st position
-2023-11-17 12:30:50,477 - INFO - Copying headers from Sheet1 to Invalid
-2023-11-17 12:30:50,477 - INFO - Found LiveVox_Result column
-2023-11-17 12:30:50,558 - INFO - Copied Invalid data to Invalid Sheet
-2023-11-17 12:30:50,941 - INFO - Saved Successfully
-2023-11-17 12:30:56,068 - INFO - Email sent successfully!
-2023-11-17 12:30:56,116 - INFO - FIle /Users/cosmint/Downloads/BII_1_* removed.
-2023-11-17 12:30:56,968 - ERROR - Error: Command '['osascript', '-e', '\n        tell application "Finder"\n            activate\n            close every Finder window\n            make new Finder window to POSIX file "/Volumes/Samsung 970 EVO/Documents/Python/livevox_call_report"\n            tell application "System Events" to keystroke "t" using command down\n            delay 0.5\n            set target of Finder window 1 to POSIX file "/Users/cosmint/Documents/Work/Outlook Templates"\n        end tell\n        ']' returned non-zero exit status 1.
+2023-12-04 22:15:29,647 - INFO - User Added
+2023-12-04 22:15:29,684 - INFO - Password Added
+2023-12-04 22:15:31,048 - INFO - Next Clicked
+2023-12-04 22:15:35,962 - INFO - Clicked Review
+2023-12-04 22:15:35,962 - INFO - Clicked Call Reports
+2023-12-04 22:15:35,962 - INFO - Clicked CDR
+2023-12-04 22:15:35,962 - INFO - //*[@id="callcenter_combo"]Selected
+2023-12-04 22:15:35,962 - INFO - Service Selected
+2023-12-04 22:15:35,962 - INFO - From Date added
+2023-12-04 22:15:35,962 - INFO - End Date added
+2023-12-04 22:15:37,003 - INFO - Current Date String: 12/04/2023
+2023-12-04 22:15:37,003 - INFO - Current Date: 2023-12-04 Today:, 2023-12-04
+2023-12-04 22:15:37,003 - INFO - Dates match
+2023-12-04 22:15:37,076 - INFO - SET 12/01/2023
+2023-12-04 22:15:37,092 - INFO - Current Date String: 12/04/2023
+2023-12-04 22:15:37,092 - INFO - Current Date: 2023-12-04 Today:, 2023-12-04
+2023-12-04 22:15:37,092 - INFO - Dates match
+2023-12-04 22:15:37,145 - INFO - SET 12/01/2023
+2023-12-04 22:15:38,238 - INFO - TXT file downloaded succesfully
+2023-12-04 22:15:48,244 - INFO - File: /Users/cosmint/Downloads/BII_1_KASAYA_KASAYA_HCI_CLICKER_849552_12012023_1701720938370.txt found.
+2023-12-04 22:15:48,245 - INFO - Data appended
+2023-12-04 22:15:48,248 - INFO - DataFrame created
+2023-12-04 22:15:48,250 - INFO - Duplicates removed
+2023-12-04 22:15:48,262 - INFO - DataFrame Exported to Excel
+2023-12-04 22:15:48,267 - INFO - Creating Invalid Sheet
+2023-12-04 22:15:48,267 - INFO - Moving to 1st position
+2023-12-04 22:15:48,267 - INFO - Copying headers from Sheet1 to Invalid
+2023-12-04 22:15:48,267 - INFO - Found LiveVox_Result column
+2023-12-04 22:15:48,268 - INFO - Copied Invalid data to Invalid Sheet
+2023-12-04 22:15:48,273 - INFO - Saved Successfully
+2023-12-04 22:15:50,915 - INFO - Email sent successfully!
+2023-12-04 22:15:50,964 - INFO - FIle /Users/cosmint/Downloads/BII_1_* removed.
 

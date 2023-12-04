@@ -4,7 +4,7 @@ import logging
 config = con()
 
 # webdriver
-URL = 'https://portal.na6.livevox.com/login/auth/BII_1?url=https%3A%2F%2Fportal.na6.livevox.com%2FBII_1%23configure%2FftpBrowser'
+URL = config['DEFAULT']['URL']
 CROMEDRIVER_PATH = '/usr/local/bin/chromedriver'
 
 # login
@@ -29,15 +29,15 @@ SERVICE_FORMAT = '//*[@id="service_combo"]'
 
 
 # pandas
-FILE_NAME = '/Users/cosmint/Downloads/BII_1_*'
+FILE_NAME = config['DEFAULT']['FILE_NAME']
 FILE_OUTPUT_USS = '/Volumes/Samsung 970 EVO/Documents/Python/livevox_call_report/USS Phone Invalid Report.xlsx'
 FILE_OUTPUT_AIR = '/Volumes/Samsung 970 EVO/Documents/Python/livevox_call_report/Airgas-Airprax Phone Invalid Report.xlsx'
 FOLDER_PATH = '/Volumes/Samsung 970 EVO/Documents/Python/livevox_call_report'
-OUTLOOK_TEMPLATE = '/Users/cosmint/Documents/Work/Outlook Templates'
+OUTLOOK_TEMPLATE = config['DEFAULT']['OUTLOOK_TEMPLATE']
 
 # email sending
-SENDER_EMAIL = "jamroack@gmail.com"
-RECEIVER_EMAIL = "cosmin.turculeanu@dandsltd.com"
+SENDER_EMAIL = config['DEFAULT']['SENDER_EMAIL']
+RECEIVER_EMAIL = config['DEFAULT']['RECEIVER_EMAIL']
 GMAIL_APP_PASSWORD = config['DEFAULT']['GMAIL_APP_PASSWORD']
 
 

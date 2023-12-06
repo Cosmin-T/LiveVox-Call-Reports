@@ -159,3 +159,6 @@ cython_debug/
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
 logic/config.ini
+Airgas-Airprax Phone Invalid Report.xlsx
+Kaseya Phone Invalid Report.xlsx
+USS Phone Invalid Report.xlsx

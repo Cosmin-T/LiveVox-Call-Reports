@@ -1,4 +1,5 @@
 #!/bin/bash
+# process.py
 
 import pandas as pd
 import glob
@@ -93,7 +94,7 @@ def remove_file(file_name):
         files = glob.glob(file_name)
         for file in files:
             os.remove(file)
-        logging.info(f'FIle {file_name} removed.\n')
+        logging.info(f'FIle {file_name} removed. d')
 
         applescript = f"""
         tell application "Finder"
@@ -110,4 +111,4 @@ def remove_file(file_name):
         logging.info('Folders Open Successfully\n')
 
     except Exception as e:
-        logging.error(f'Error: {e}')
+        logging.error(f'Error: {e}\n')

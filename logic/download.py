@@ -1,3 +1,5 @@
+# downloads.py
+
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
@@ -16,5 +18,3 @@ def down(driver, generate_class):
         logging.info(f'TXT file downloaded succesfully')
     except Exception as e:
         logging.error(f'Error: {e}')
-
-

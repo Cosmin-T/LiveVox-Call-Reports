@@ -159,6 +159,6 @@ cython_debug/
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
 logic/config.ini
-/Volumes/Samsung 970 EVO/Documents/Python/livevox_call_report/Airgas-Airprax Phone Invalid Report.xlsx
-/Volumes/Samsung 970 EVO/Documents/Python/livevox_call_report/Kaseya Phone Invalid Report.xlsx
-/Volumes/Samsung 970 EVO/Documents/Python/livevox_call_report/USS Phone Invalid Report.xlsx
+Airgas-Airprax Phone Invalid Report.xlsx
+Kaseya Phone Invalid Report.xlsx
+USS Phone Invalid Report.xlsx

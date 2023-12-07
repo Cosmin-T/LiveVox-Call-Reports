@@ -96,19 +96,5 @@ def remove_file(file_name):
             os.remove(file)
         logging.info(f'FIle {file_name} removed. d')
 
-        applescript = f"""
-        tell application "Finder"
-            activate
-            close every Finder window
-            make new Finder window to POSIX file "{FOLDER_PATH}"
-            tell application "System Events" to keystroke "t" using command down
-            delay 0.5
-            set target of Finder window 1 to POSIX file "{OUTLOOK_TEMPLATE}"
-        end tell
-        """
-
-        subprocess.run(['osascript', '-e', applescript], check=True)
-        logging.info('Folders Open Successfully\n')
-
     except Exception as e:
         logging.error(f'Error: {e}\n')

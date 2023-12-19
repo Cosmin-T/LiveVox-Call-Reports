@@ -94,7 +94,7 @@ def aga3p():
 
         reporting(FILE_OUTPUT_AGA, FILE_NAME)
         apply_filters_to_excel(FILE_OUTPUT_AGA)
-        send(FILE_OUTPUT_AGA, SUBJECT_USS, FILE_NAME_AGA)
+        send(FILE_OUTPUT_AGA, SUBJECT_AGA, FILE_NAME_AGA)
         remove_file(FILE_NAME)
 
     finally:

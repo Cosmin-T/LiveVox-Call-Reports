@@ -34,12 +34,13 @@ FILE_NAME = config['DEFAULT']['FILE_NAME']
 FILE_OUTPUT_USS = '/Volumes/Samsung 970 EVO/Documents/Python/livevox_call_report/USS Phone Invalid Report.xlsx'
 FILE_OUTPUT_AIR = '/Volumes/Samsung 970 EVO/Documents/Python/livevox_call_report/Airgas-Airprax Phone Invalid Report.xlsx'
 FILE_OUTPUT_KASEYA = '/Volumes/Samsung 970 EVO/Documents/Python/livevox_call_report/Kaseya Phone Invalid Report.xlsx'
+FILE_OUTPUT_AGA = '/Volumes/Samsung 970 EVO/Documents/Python/livevox_call_report/AGA Phone Invalid Report.xlsx'
 FOLDER_PATH = '/Volumes/Samsung 970 EVO/Documents/Python/livevox_call_report'
 OUTLOOK_TEMPLATE = config['DEFAULT']['OUTLOOK_TEMPLATE']
 
 # nav keys without service
-CALL_CENTER_KEY_USS = ''
-REPORT_FORMAT_KEY_USS = ''
+CALL_CENTER_KEY_USS = 'USS'
+REPORT_FORMAT_KEY_USS = 'AGA_RETURN'
 
 # nav keys with service
 REPORT_FORMAT_KEY_AIR = 'Dragon 3P (3062852)'
@@ -50,6 +51,9 @@ REPORT_FORMAT_KEY_KAS = 'KASAYA (3063659)'
 CALL_CENTER_KEY_KAS = 'AGA_RETURN'
 SERVICE_FORMAT_KEY_KAS = 'KASAYA_HCI_CLICKER (3183055)'
 
+CALL_CENTER_KEY_AGA = 'AGA 3P (3058151)'
+REPORT_FORMAT_KEY_AGA = 'AGA_RETURN'
+
 # email sending
 SUBJECT_USS = 'USS Phone Invalid Report'
 FILE_NAME_USS = 'USS Phone Invalid Report.xlsx'
@@ -57,6 +61,8 @@ SUBJECT_AIR = 'Airprax-Airgas Phone Invalid Report'
 FILE_NAME_AIR = 'Airprax-Airgas Phone Invalid Report.xlsx'
 SUBJECT_KAS = 'Kaseya Phone Invalid Report'
 FILE_NAME_KAS = 'Kaseya Phone Invalid Report.xlsx'
+SUBJECT_AGA = 'AGA Phone Invalid Report'
+FILE_NAME_AGA = 'AGA Phone Invalid Report.xlsx'
 
 SENDER_EMAIL = config['DEFAULT']['SENDER_EMAIL']
 RECEIVER_EMAIL = config['DEFAULT']['RECEIVER_EMAIL']

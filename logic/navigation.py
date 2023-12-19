@@ -16,7 +16,7 @@ from logic.dates import *
 
 conf_log()
 
-def nav_without_service(driver, review_xpath, call_reports, call_detail_report, call_center, report_format):
+def nav_without_service(driver, review_xpath, call_reports, call_detail_report, call_center, report_format, call_center_key, report_format_key):
     try:
 
         navigator_list = [
@@ -33,12 +33,11 @@ def nav_without_service(driver, review_xpath, call_reports, call_detail_report, 
 
             if i == 3:
                 call_center_input = WebDriverWait(driver, 15).until(EC.visibility_of_element_located((By.XPATH, call_center)))
-                call_center_input.send_keys('USS' + Keys.ENTER)
+                call_center_input.send_keys(call_center_key + Keys.ENTER)
 
             if i == 4:
                 report_format_input = WebDriverWait(driver, 15).until(EC.visibility_of_element_located((By.XPATH, report_format)))
-                report_format_input.send_keys('AGA_RETURN' + Keys.ENTER)
-
+                report_format_input.send_keys(report_format_key + Keys.ENTER)
 
         if nav_func():
             print_list = ['Clicked Review', 'Clicked Call Reports', 'Clicked CDR', 'USS Selected', 'Format Selected', 'From Date added', 'End Date added']

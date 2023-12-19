@@ -12,7 +12,7 @@ def uss():
     try:
         driver = initialize_webdriver(URL)
         log(driver, USER_XPATH, PASSWORD_XPATH, LOGIN_XPATH, USER, PASSWORD)
-        nav_without_service(driver, REVIEW_XPATH, CALL_REPORTS, CALL_DETAIL_REPORT, CALL_CENTER, REPORT_FORMAT)
+        nav_without_service(driver, REVIEW_XPATH, CALL_REPORTS, CALL_DETAIL_REPORT, CALL_CENTER, REPORT_FORMAT, CALL_CENTER_KEY_USS, REPORT_FORMAT_KEY_USS)
 
         time.sleep(1)
         add_dates(driver, FROM_DATE_ID)
@@ -77,7 +77,31 @@ def kaseya():
     finally:
         driver.quit()
 
+def aga3p():
+    try:
+        driver = initialize_webdriver(URL)
+        log(driver, USER_XPATH, PASSWORD_XPATH, LOGIN_XPATH, USER, PASSWORD)
+        nav_without_service(driver, REVIEW_XPATH, CALL_REPORTS, CALL_DETAIL_REPORT, CALL_CENTER, REPORT_FORMAT, CALL_CENTER_KEY_AGA, REPORT_FORMAT_KEY_AGA)
+
+        time.sleep(1)
+        add_dates(driver, FROM_DATE_ID)
+        add_dates(driver, TO_DATE_ID)
+
+        time.sleep(1)
+        down(driver, GENERATE_CLASS)
+        time.sleep(10)
+
+
+        reporting(FILE_OUTPUT_AGA, FILE_NAME)
+        apply_filters_to_excel(FILE_OUTPUT_AGA)
+        send(FILE_OUTPUT_AGA, SUBJECT_USS, FILE_NAME_AGA)
+        remove_file(FILE_NAME)
+
+    finally:
+        driver.quit()
+
 if __name__ == '__main__':
     uss()
     air()
     kaseya()
+    aga3p()
